@@ -27,12 +27,6 @@ ids <- c("L42H20P02", "L50H15P03", "L03H19P03",
 jpeg('figures/figure_1.jpeg',
       width = 20*300, height = 11.5*300, res = 300)
 
-layout(matrix(1:6, 
-              nrow = 2, ncol = 3, 
-              byrow = TRUE),
-       widths = rep(1.5, 3), 
-       heights = rep(1, 2))
-
 mat <- rbind(matrix(1:6, 
                     nrow = 2, ncol = 3, 
                     byrow = FALSE),
@@ -69,12 +63,6 @@ ids.midage <- c("L22H16P03", "L20H22P01", "L21H10P01",
 
 jpeg('figures/figure_s1.jpeg',
      width = 20*300, height = 11.5*300, res = 300)
-
-layout(matrix(1:6, 
-              nrow = 2, ncol = 3, 
-              byrow = TRUE),
-       widths = rep(1.5, 3), 
-       heights = rep(1, 2))
 
 mat <- rbind(matrix(1:6, 
                     nrow = 2, ncol = 3, 
