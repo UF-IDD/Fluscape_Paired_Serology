@@ -18,7 +18,7 @@ jpeg('figures/figure_3.jpeg',
 layout(matrix(c(1:3, 7, 4:7), nrow = 2, ncol = 4, byrow = TRUE),
        w = c(1,1,1,0.5), h = rep(1,2))
 
-# age at circulation
+# age at sampling
 sapply(1:3, splineTiterOnAgePlotCombined, 
        st = st,
        data = conversion, 
